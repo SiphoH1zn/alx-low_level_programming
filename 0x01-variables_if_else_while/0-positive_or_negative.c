@@ -4,11 +4,10 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - Determines if a number is positive or negative or zero.
- * 
+ *  main - Determines if a number is positive or negative or zero.
+ *
  * Return: Always 0 (Success)
- */
-
+ **/
 int main(void)
 {
 	int n;
@@ -30,4 +29,3 @@ int main(void)
 	}
 	return (0);
 }
-
