@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Write a C program that prints the size of various types on the computer it is compiled and run on
+ * main - Program that output the size of datatpes
+ *
  * Return: 0 (Success)
  *
  */
