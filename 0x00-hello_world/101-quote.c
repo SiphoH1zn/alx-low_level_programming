@@ -2,13 +2,14 @@
 #include <unistd.h>
 
 /**
- * main - A script that prints out string without the use of printf and puts
+ * main - print string, printf and puts are not allowed
  *
- * Result: 1 (Success)
+ * Return: 1
  */
 
 int main(void)
 {
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n" 59);
+	write(1, "and that oiece of art is useful\" - DOra Korpar, 2015-10-19\n", 59);
 	return (1);
 }
+
