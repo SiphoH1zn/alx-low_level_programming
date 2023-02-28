@@ -3,8 +3,8 @@
 
 /**
  * _putchar - writes the character c to stdout
- * C to print
- *@c: c
+ * @c: to print
+ *
  * Return: On success 1.
  */
 
