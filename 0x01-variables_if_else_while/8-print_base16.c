@@ -1,23 +1,25 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- * main - print mumbers between 0 to 9 and letters between a and f
- *
+ * main - Entry point
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i;
+	int a;
+	char low;
 
-	for (i = 48; i < 58; i++)
+	for (a = '0'; a <= '9'; a++)
 	{
-		putchar(i);
+		putchar(a);
 	}
 
-	for (i = 97; i < 103; i++)
+	for (low = 'a'; low <= 'f'; low++)
 	{
-		putchar(i);
+		putchar(low);
+		putchar('\n');
 	}
-	putchar(i);
 	return (0);
 }
